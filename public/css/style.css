@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #007FC8;
+}
+
+#page-content{
+    background-color: #007FC8;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+
+#logoTD{
+    width: 90px;
+    height: auto;
+}
+
+#logoTD-xxl{
+    margin-top: 70px;
+    margin-left: 15px;
+    width: 570px;
+    height: auto;
+}
+
+#Ilustrer {
+    margin-top: 0px;
+    width: 730px;
+    height: auto;
+}
+
+#Tasks_list{
+    width: 750px;
+    height: auto;
+}
+header{
+    background-color: #007FC8;
+    margin: 0%;
+}
+
+nav{
+    background-color: #007FC8;
+    border: 0.1px solid white;
+    box-shadow: #504d4d;
+    border-radius: 60px;
+    width: 98%;
+}
+
+.nav-link{
+    font-family: "Bebas Neue", Helvetica;
+    font-size: 28px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 510;
+    letter-spacing: 0;
+    line-height: normal;
+    text-wrap: nowrap;
+  }
+#Settings{
+    float: right;
+  }
+
+nav .nav-link:hover{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+  }
+nav a{
+    font-size: 20px;
+}
+
+
+.section1{
+    height: 80vh;
+    color: #f1f1f1;
+    /* background-color: #007FC8; */
+}
+
+.section1 a{
+    text-decoration: none;
+    color: navy;
+}
+
+.section2{
+    height: 80vh;
+    /* background-color: #007FC8; */
+}
+
+/* Bordered form */
+
+form h2{
+    color: #007FC8;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+form {
+    /* display: block; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: 5px;
+    padding-left: auto;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    border: 1px solid #007FC8;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-size: 20px;
+}
+#Inscription{
+    width: 800px;
+    height: 560px;
+    margin-right: 80px;
+}
+
+#Connexion{
+    width: 800px;
+    height: 550px;
+
+}
+
+#form_Inscript_content{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content{
+    display: flex;
+}
+
+
+p{
+    width: 80%;
+    font-size: 30px;
+    color: black;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.bvn {
+    font-size: 40px;
+    color: #fbfdfe;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=tel]
+{
+    width: 38%;
+    color: black;
+    padding: 8px 8px;
+    margin: 1% 1%;
+    border: 1  solid #948e8e;
+    box-sizing: border-box;
+}
+
+input[type=password]{
+    width: 70%;
+    color: black;
+    padding: 8px 8px;
+    border: 1  solid #948e8e;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    color: black;
+    /* padding: 10px; */
+    width: 20px;
+    height: 20px;
+    margin: 2% 2%;
+    border: 0 solid #948e8e;
+    box-sizing: border-box;
+}
+
+.sexe{
+    width: 70%;
+}
+#etude_profesion{
+    width: 70%;
+}
+
+/* Set a style for all buttons */
+button[type=submit] {
+    background-color: black;
+    color: #f4f5f6;
+    font-size: 30px;
+    font-weight: bold;
+    /* padding: 6px 0px; */
+    margin: 8px 0;
+    margin-bottom: 6px;
+    border: none;
+    /* float: right; */
+    cursor: pointer;
+    width: 40%;
+}
+button[type=submit]:hover {
+    background-color: #007FC8;
+    color: white;
+    border: 1px solid black;
+}
+.alert{
+    padding-top: 5px;
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+}
